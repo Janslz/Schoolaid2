@@ -14,9 +14,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #000000, #333333);
-  position: relative; /* Hinzugefügt, um Quadrate zu positionieren */
+  background: url(../img/hintergrund6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px;
 }
+
 body, h1, p, a, input {
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -41,7 +45,7 @@ body, h1, p, a, input {
 
 /* Änderung des Farbstils für den Header-Titel */
 h1 {
-  color: #fff;
+  color: #27408B;
 }
 
 .container {
@@ -70,12 +74,12 @@ form {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 16px;
   letter-spacing: 1px;
-  color: #fff;
+  color: #27408B;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .white-placeholder::placeholder {
-  color: #fff;
+  color: #84AFD6;
 }
 
 form .submit {
@@ -84,7 +88,7 @@ form .submit {
   border-radius: 35px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: #fff;
-  color: #000;
+  color: #27408B;
   max-width: 100px;
   cursor: pointer;
   margin-top: 3px;
@@ -95,13 +99,13 @@ form .submit {
 }
 
 .forget {
-  color: #fff;
+  color: #27408B;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .forget a {
-  color: #fff;
+  color: #27408B;
   font-weight: 600;
 }
 
@@ -165,29 +169,5 @@ form .submit {
   width: 100px; /* Passen Sie die Größe nach Bedarf an */
   height: 100px; /* Passen Sie die Größe nach Bedarf an */
 }
-.color{
-  position: absolute;
-  filter: blur(100px);
-}
-.color1{
-  margin-top: -380px;
-  margin-left: 250px;
-  width: 600px;
-  height: 600px;
-  background: #ff359b;
-}
-.color2{
-  margin-bottom: -150px;
-  margin-left: -150px;
-  width: 500px;
-  height: 500px;
-  background: mediumspringgreen;
-}
-.color3{
-  bottom: 50px;
-  margin-left: 400px;
-  width: 300px;
-  height: 300px;
-  background: #00d2ff;
-}
+
 
