@@ -43,7 +43,7 @@ header
   background: rgba(255,255,255,0.2);
   box-shadow: 0 15px 35px rgba(0,0,0,0.05);
   border-radius: 20px;
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.25);
   border-top: 1px solid rgba(255,255,255,0.5);
   border-left: 1px solid rgba(255,255,255,0.5);
@@ -82,7 +82,7 @@ header ul li a.active
   max-width: 700px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
   border-radius: 20px;
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.25);
   border-top: 1px solid rgba(255,255,255,0.5);
   border-left: 1px solid rgba(255,255,255,0.5);
@@ -103,7 +103,7 @@ header ul li a.active
   display: inline-block;
   padding: 15px 30px;
   background: #fff;
-  color: darkslategrey;
+  color: #27408B;
   margin-top: 20px;
   border-radius: 30px;
   font-size: 1.2em;
@@ -263,4 +263,52 @@ header ul li a.active
   {
     max-width: 300px;
   }
+}
+header ul li ul.dropdown1 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown1 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown1 {
+  display: block;
+}
+header ul li ul.dropdown2 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown2 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown2 {
+  display: block;
+}
+header ul li ul.dropdown3 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown3 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown3 {
+  display: block;
 }
